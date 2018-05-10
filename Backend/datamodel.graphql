@@ -1,0 +1,6 @@
+
+type Event {
+  id: ID! @unique
+  date: String!
+  info: String!
+}
