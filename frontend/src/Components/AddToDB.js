@@ -9,7 +9,7 @@ export default class extends Component {
 
     onFormSubmitted = async (e) => {
         e.preventDefault()
-        alert("submitted")
+        alert("Submitted")
         const addToDataBase = async () => {
             let makeEvent = await client.mutate({
                 mutation: gql`
