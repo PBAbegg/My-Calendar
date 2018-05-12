@@ -1,40 +1,14 @@
 import React, { Component, Fragment } from 'react'
 import { Query } from "react-apollo"
 import gql from "graphql-tag"
-import {client} from '../EndPoint'
-
 
 export default class extends Component {
 
-    // loadEvents = async () => {
-    //     let getEvents = await client.query({
-    //         query: gql`
-    //             query {
-    //                 events {
-    //                     id
-    //                     date
-    //                     info
-    //                 }
-    //             }
-    //         `
-    //     }).then((result) => {
-    //         return result.data.readEvent
-    //     })
-    //
-    //     await console.log("Data: ", getEvents)
-    //     await this.setState({events: getEvents})
-    //     window.location.reload()
-    //
-    // }
-    //
-
-
     render() {
-
 
         return (
         <Fragment>
-            <p>Events</p>
+            <h1>Events</h1>
             <Query
                 query={gql`
                         {

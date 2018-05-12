@@ -1,2 +1,5 @@
-endpoint: https://us1.prisma.sh/pbabegg-bec98c/final-project/dev
+#endpoint: https://us1.prisma.sh/pbabegg-bec98c/final-project/dev
 datamodel: datamodel.graphql
+#endpoint: https://us1.prisma.sh/pbabegg-bec98c/Backend/dev
+
+endpoint: https://us1.prisma.sh/pbabegg-bec98c/Backend-info/dev

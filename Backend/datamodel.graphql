@@ -1,6 +1,6 @@
 
 type Event {
   id: ID! @unique
-  date: String!
+  date: String! @unique
   info: String!
 }

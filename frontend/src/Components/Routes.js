@@ -27,7 +27,7 @@ const Home = () =>{
             <Tab label="All Events" value="/">
                 <AllEvents/>
             </Tab>
-            <Tab label="Add Event" value="/AddEvent">
+            <Tab label="Create Event" value="/AddEvent">
                 <Event/>
             </Tab>
             <Tab label="Update Event" value="/UpdateEvent">

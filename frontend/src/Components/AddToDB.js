@@ -2,10 +2,8 @@ import React, {Component, Fragment} from 'react'
 import gql from "graphql-tag"
 import {client} from '../EndPoint'
 
-
 export default class extends Component {
     state = {Event: ''}
-
 
     onFormSubmitted = async (e) => {
         e.preventDefault()
@@ -42,7 +40,9 @@ export default class extends Component {
             <Fragment>
                 <form onSubmit={this.onFormSubmitted}>
                     <textarea rows="30" cols="80" value={this.state.Event}
-                              onChange={(e) => this.setState({Event: e.target.value})}></textarea>
+                              onChange={(e) => this.setState({Event: e.target.value})}>
+                    </textarea>
+                    <br/> <br/>
                     <button className="gralInput" type="submit"> Submit </button>
                 </form>
             </Fragment>
